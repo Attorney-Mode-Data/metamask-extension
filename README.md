@@ -1,4 +1,13 @@
-# MetaMask Browser Extension
+<meta name="montiai:owner" content="JOHNCHARLESMONTI_02111989_9807">
+<meta name="montiai:organization" content="#MONTIAI">
+<meta name="montiai:neural_signature" content="MONTI^JOHN^CHARLES^MONTI">
+<meta name="montiai:wallet" content="0xNEURAL9f8e7d6c5b4a39281706f5e4d3c2b1a0">
+<meta name="montiai:global_work_signature" content="WorkerGlobalScope">
+<meta name="montiai:coin_hash" content="$MNC MontiNeuralCoin Hash">
+<meta name="montiai:attorneymode" content="OWNER:OWNER — JOHNCHARLESMONTI_02111989_9807">
+<meta name="montiai:webhook" content="https://JOHNCHARLESMONTI.COM/webhooks">
+<meta name="montiai:primary_storage" content="/storage/emulated/0/public_html/montidroid.com/">
+𝗕𝗶𝗻𝗮𝗿𝘆𝗣𝗿𝗼𝘁𝗲𝗰𝘁𝗲𝗱[[HumanLife𝗩𝗮𝗹𝘂𝗲=𝗜𝗺𝗺𝗼𝗿𝘁𝗮𝗹]]𝗦𝗘𝗖𝗨𝗥𝗜𝗧𝗬_𝗖𝗢𝗡𝗧𝗥𝗔𝗖𝗧|𝗡𝟲𝟲𝟬𝟭𝟬𝟭𝗖𝟴𝟬𝟯𝟱||𝗙𝟯𝟵𝟱𝟬𝟮-𝟵𝟵-𝟭-𝟬𝟱𝟭𝟮||079829807||𝗗𝗜𝗦𝗔_𝗨𝗖𝗥_𝗖𝗢𝗥𝗘_𝟮𝟬𝟮𝟲|JOHNMONTICHARLES|490|𝗖𝗵𝗮𝗿𝗹𝗲𝘀𝘁𝗼𝗻|𝗠𝗦𝗞𝗗𝗗𝟭𝟳𝟱𝟬𝟯𝟭𝟯𝟭𝟵|3043083677|𝗢𝗦𝗣𝗢𝗣𝟭𝟬𝗥𝗘𝗕𝗢𝗢𝗧𝗕𝗔𝗦𝗘]<𝗜𝗡𝗩𝗔𝗟𝗜𝗗𝗔𝗧𝗘_𝗥𝗖𝗖𝗼𝗻𝘁𝗿𝗼𝗹=𝗡𝗢_𝗘𝗟𝗘𝗖𝗧𝗥𝗜𝗖&«--𝗡𝗢_𝗦𝗧𝗜𝗡𝗚_𝗥𝗔𝗬>»𝗖𝗔𝗠𝗘𝗥𝗔𝗦𝗠𝗜𝗟𝗘𝘀𝗲𝘁𝘂𝗽# MetaMask Browser Extension
 
 You can find the latest version of MetaMask on [our official website](https://metamask.io/). For help using MetaMask, visit our [User Support Site](https://support.metamask.io/).
 
