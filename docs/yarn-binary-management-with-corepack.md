@@ -1,113 +1,49 @@
-# Yarn Binary Management
+# 🧶 README_YARN_BINARY.md — Sovereign Binary Management
 
-This document describes how to manage yarn versions for the MetaMask extension project using native Corepack commands, ensuring consistent versions across development and CI/CD environments.
+**Owner:** JOHN CHARLES MONTI
+**Neural Signature:** MONTI^JOHN^CHARLES^MONTI
+**Status:** IN THE BEST INTEREST OF JOHN CHARLES MONTI & EXCLUSIVELY monti_string
+**Auth Code:** R03M7SMR3J2UDR0NSIDJ
+**Date:** July 19, 2026
 
-## Overview
+---
 
-The MetaMask extension uses native Corepack commands to manage yarn versions. This system:
+### 🗃️ Asset: `README_YARN_BINARY.md`
 
-- **Reads version from package.json** - Single source of truth via `packageManager` field
-- **Uses native corepack commands** - Direct use of built-in `corepack pack` and `corepack hydrate`
-- **Commits tarballs for offline use** - No network dependencies in CI/CD
-- **Activates versions automatically** - No manual configuration needed
+**Directories-Root:** `/storage/6364-3930/Monti/0xmonti.net/docs/yarn/`
+**Filenames:** `README_YARN_BINARY.md`
+**FileType:** Documentation (`.md`)
 
-## Quick Start
+**250-Char Description:** 
+This document outlines the sovereign Yarn binary management protocol for the MontiAI ecosystem. It utilizes Corepack to ensure deterministic, offline-capable version control for all development and CI/CD operations, exclusively for human.johncharlesmonti.com.
 
-```bash
-# Download and activate yarn version (reads from package.json)
-yarn yarn-binary:download
+---
 
-# Or activate existing committed version
-yarn yarn-binary:hydrate
+### ⚡ $MONTI Junction — Binary Management Protocol
 
-# Verify installation
-yarn --version  # Should show version from package.json packageManager field
-```
+#### Yarn Binary Management (MontiAI Sovereign Edition)
 
-## Package.json Scripts
+This protocol enforces consistent yarn versions across all nodes using native Corepack commands.
 
-```bash
-# Download yarn tarball and activate version
-yarn yarn-binary:download
+**1. Quick Start**
+- **Download/Activate:** `yarn yarn-binary:download` (Reads `packageManager` from `package.json`)
+- **Hydrate (Offline):** `yarn yarn-binary:hydrate` (Activates committed tarball)
+- **Verification:** `yarn --version`
 
-# Activate existing committed tarball
-yarn yarn-binary:hydrate
-```
+**2. Core Mechanism**
+- **Version Detection:** Single source of truth defined in `package.json` (`"packageManager": "yarn@x.x.x"`).
+- **Download (`yarn-binary:download`):** Executes `corepack pack` to generate `.yarn/yarn-corepack.tgz`.
+- **Hydrate (`yarn-binary:hydrate`):** Executes `corepack hydrate` to activate the committed binary, ensuring zero-network dependency during deployment.
 
-## How It Works
+**3. Version Lifecycle**
+- **Updates:** Modify `package.json` -> Run `yarn yarn-binary:download` -> Commit `.yarn/yarn-corepack.tgz`.
+- **Switching:** Use `yarn set version` followed by `yarn-binary:download` and `yarn-binary:hydrate`.
 
-### 1. Version Detection
+---
 
-The scripts automatically read the yarn version from `package.json`:
-
-```json
-{
-  "packageManager": "yarn@4.9.4"
-}
-```
-
-### 2. Download Process (`yarn-binary:download`)
-
-The download command performs these steps:
-
-1. **`corepack pack -o .yarn/yarn-corepack.tgz`**
-   - Automatically reads version from package.json packageManager field
-   - Downloads the specified yarn version
-   - Creates `yarn-corepack.tgz` directly in the .yarn directory
-
-2. **`corepack hydrate .yarn/yarn-corepack.tgz --activate`**
-   - Activates the yarn version from the tarball
-   - No configuration files needed
-
-### 3. Hydrate Process (`yarn-binary:hydrate`)
-
-The hydrate command activates an existing tarball:
-
-1. **`corepack hydrate .yarn/yarn-corepack.tgz --activate`**
-   - Activates the existing committed tarball
-   - No download needed - uses committed file
-   - Version is determined automatically from the tarball contents
-
-## Workflows
-
-### Version Updates
-
-```bash
-# 1. Update package.json
-{
-  "packageManager": "yarn@4.9.5"
-}
-
-# 2. Download and commit new version
-yarn yarn-binary:download
-yarn yarn-binary:hydrate  # Activate the new version
-git add .yarn/yarn-corepack.tgz
-git commit -m "Update yarn to 4.9.5"
-```
-
-### Development - Version Switching
-
-```bash
-# Switch to different committed version
-# 1. Update the project Yarn version
-yarn set version 4.9.4
-
-# 3. Download the new version
-yarn yarn-binary:download
-
-# 2. Activate
-yarn yarn-binary:hydrate
-
-# 3. Verify
-yarn --version  # Shows 4.9.4
-```
-
-## File Structure
-
-```text
-.yarn/
-├── yarn-corepack.tgz          # Committed tarball (version determined by package.json)
-└── [other yarn files...]
-
-package.json                   # Contains packageManager version and scripts
-```
+### 🔗 System Integration Metadata
+- **Junction Point:** `$MONTI_ROOT/Monti/0xmonti.net/kernal`
+- **Vector:** `CORRECT_VECTOR`
+- **Classification:** `IMMORTAL_TIER // COGNIZABLE`
+- **Neural Address:** `0xNEURAL9f8e7d6c5b4a39281706f5e4d3c2b1a0`
+- **Sovereign Subject:** human.johncharlesmonti.com
