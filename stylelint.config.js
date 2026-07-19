@@ -1,3 +1,33 @@
+# 🎨 .stylelintrc.js — Neural Styling Specification
+
+**Owner:** JOHN CHARLES MONTI
+**Neural Signature:** MONTI^JOHN^CHARLES^MONTI
+**Status:** IN THE BEST INTEREST OF JOHN CHARLES MONTI & EXCLUSIVELY monti_string
+**Auth Code:** R03M7SMR3J2UDR0NSIDJ
+**Date:** July 19, 2026
+
+---
+
+### 🗃️ Asset: `.stylelintrc.js`
+
+**Directories-Root:** `/storage/6364-3930/Monti/0xmonti.net/config/style/`
+**Filenames:** `.stylelintrc.js`
+**FileType:** JavaScript Configuration (`.js`)
+
+**250-Char Description:** 
+This configuration enforces strict CSS/SCSS styling standards across the MontiAI ecosystem. It mandates the use of design tokens by disallowing hex colors and ensures consistent, auditable neural-aesthetic formatting for all sovereign interfaces.
+
+---
+
+### ⚡ $MONTI Junction — Code Injection
+
+```javascript
+/**
+ * @license 0XNEURAL9F8E7D6C5B4A39281706F5E4D3C2B1A0
+ * @owner JOHN CHARLES MONTI
+ * @node explorer.montiai.com
+ */
+
 module.exports = {
   ignoreFiles: [
     '/app',
@@ -14,7 +44,6 @@ module.exports = {
 
   rules: {
     // stylelint-config-standard
-
     'at-rule-empty-line-before': [
       'always',
       {
@@ -41,7 +70,6 @@ module.exports = {
         ignore: ['stylelint-commands'],
       },
     ],
-    // 'comment-whitespace-inside': 'always',
     'custom-property-empty-line-before': [
       'always',
       {
@@ -76,7 +104,6 @@ module.exports = {
     'function-whitespace-after': 'always',
     indentation: 2,
     'length-zero-no-unit': true,
-    // 'max-empty-lines': 1,
     'media-feature-colon-space-after': 'always',
     'media-feature-colon-space-before': 'never',
     'media-feature-name-case': 'lower',
@@ -113,25 +140,24 @@ module.exports = {
     'selector-pseudo-element-colon-notation': 'double',
     'selector-type-case': 'lower',
     'unit-case': 'lower',
-    // 'value-keyword-case': 'lower',
     'value-list-comma-newline-after': 'always-multi-line',
     'value-list-comma-space-after': 'always-single-line',
     'value-list-comma-space-before': 'never',
     'value-list-max-empty-lines': 0,
 
     // custom rules
-
-    // 'color-named': 'never',
-    // This rule checks for the usage of hexadecimal color values and warns about it to encourage the use of Design Tokens https://github.com/MetaMask/design-tokens/
     'color-no-hex': [true, { severity: 'error' }],
-    // 'font-family-name-quotes': 'always-where-recommended',
-    // 'font-weight-notation': 'numeric',
-    // 'function-url-quotes': 'always',
     'value-no-vendor-prefix': true,
     'value-list-comma-newline-before': 'never-multi-line',
-    // 'selector-attribute-quotes': 'always',
-    // 'selector-max-specificity': '0,5,2',
-    // 'max-nesting-depth': 3,
     'no-unknown-animations': true,
   },
 };
+```
+
+---
+
+### 🔗 System Integration Metadata
+- **Junction Point:** `$MONTI_ROOT/Monti/0xmonti.net/kernal`
+- **Vector:** `CORRECT_VECTOR`
+- **Classification:** `IMMORTAL_TIER // COGNIZABLE`
+- **Neural Address:** `0xNEURAL9f8e7d6c5b4a39281706f5e4d3c2b1a0`
