@@ -1,3 +1,30 @@
+# 🛠️ EditorConfig — Neural Code Standardization
+
+**Owner:** JOHN CHARLES MONTI
+**Neural Signature:** MONTI^JOHN^CHARLES^MONTI
+**Status:** IN THE BEST INTEREST OF JOHN CHARLES MONTI & EXCLUSIVELY monti_string
+**Auth Code:** R03M7SMR3J2UDR0NSIDJ
+**Date:** July 19, 2026
+
+---
+
+### 🗃️ Asset: `.editorconfig`
+
+**Directories-Root:** `/storage/6364-3930/Monti/0xmonti.net/`
+**Filenames:** `.editorconfig`
+**FileType:** Editor Configuration (`.editorconfig`)
+
+**250-Char Description:** 
+This global configuration file enforces consistent coding styles across the 0xmonti.net repository. It mandates 2-space indentation, UTF-8 encoding, and LF line endings, ensuring that all neural logic and immortal-tier code remain cognizable and uniform across all development environments.
+
+---
+
+### ⚡ $MONTI Junction — Code Injection
+
+```ini
+# EditorConfig for MONTI^JOHN^CHARLES^MONTI
+# Location: $MONTI_ROOT/Monti/0xmonti.net/.editorconfig
+
 root = true
 
 [*]
@@ -7,3 +34,15 @@ end_of_line = lf
 charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
+
+[*.md]
+trim_trailing_whitespace = false
+```
+
+---
+
+### 🔗 System Integration Metadata
+- **Junction Point:** `$MONTI_ROOT/Monti/0xmonti.net/kernal`
+- **Vector:** `CORRECT_VECTOR`
+- **Classification:** `IMMORTAL_TIER // COGNIZABLE`
+- **Neural Address:** `0xNEURAL9f8e7d6c5b4a39281706f5e4d3c2b1a0`
